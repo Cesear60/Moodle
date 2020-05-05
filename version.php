@@ -37,3 +37,4 @@ $release  = '3.5.11 (Build: 20200309)'; // Human-friendly version name
 
 $branch   = '35';                       // This version's branch.
 $maturity = MATURITY_STABLE;             // This version's maturity level.
+$plugin->component
