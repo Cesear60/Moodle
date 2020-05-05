@@ -1,11 +1,7 @@
 language: php
 
-addons:
-  postgresql: "9.4"
-
 services:
   - mysql
-  - postgresql
 
 cache:
   directories:
@@ -20,7 +16,6 @@ env:
  global:
   - MOODLE_BRANCH=MOODLE_35_STABLE
  matrix:
-  - DB=pgsql
   - DB=mysqli
 
 before_install:
